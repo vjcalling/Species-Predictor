@@ -5,6 +5,7 @@
         <div class="col s12 m18 offset-ml center">
             <h2>Species Predictor</h2>
             <a href="{{url_for('preview')}}" class="btn btn-small white cyan-text waves-effect waves-dark right">View Dataset</a>
+            <a href="https://en.wikipedia.org/wiki/Iris_flower_data_set" target="_blank" class="btn btn-small white cyan-text waves-effect waves-dark right">About Dataset</a>
         </div>
 
     </div>
@@ -14,7 +15,7 @@
           <div class="row">
 
             <div class="col s12 m4">
-                <h5>Select Data</h5>
+                <h5>Select Attributes</h5>
               <div class="card-panel grey lighten-4 grey-text text-darken-4 z-depth-0">
                 <form action="{{ url_for('analyze')}}" method="POST">
                   <div class="input-field">
