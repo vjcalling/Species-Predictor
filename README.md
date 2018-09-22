@@ -3,7 +3,7 @@ python flask webapp which deals with iris dataset and classify them as some spec
 
 **Libraries used:**  
 a. EDA: Numpy, Pandas  
-b. ML: sklearn (CountVectorizer, train_test_split, MultinomialNB)  
+b. ML: sklearn (LogisticRegression, DecisionTreeClassifier, KNeighborsClassifier)  
 c. persistance: Pickle  
 d. Plotting in jupyter notebook: matplot, seaborn
 
