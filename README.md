@@ -24,3 +24,6 @@ f. app.py (starting point)
 **Main Application**  
 ![Alt text](./screenshots/main_app.png?raw=true "Home Page")  
 
+
+**Preview Page**  
+![Alt text](./screenshots/preview_page.png?raw=true "Home Page") 
