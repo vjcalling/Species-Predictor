@@ -43,8 +43,11 @@ def analyze():
 			knn_model = joblib.load('model/knn_model_iris.pkl')
 			result_prediction = knn_model.predict(ex1)
 		elif model_choice == 'svmmodel':
-			knn_model = joblib.load('model/svm_model_iris.pkl')
-			result_prediction = knn_model.predict(ex1)
+			svm_model = joblib.load('model/svm_model_iris.pkl')
+			result_prediction = svm_model.predict(ex1)
+		elif model_choice == 'dectree':
+			dectree_model = joblib.load('model/decision_tree_model_iris.pkl')
+			result_prediction = dectree_model.predict(ex1)
 
 	return render_template('index.html', petal_width=petal_width,
 		sepal_width=sepal_width,
